@@ -8,8 +8,8 @@ function fillProgressBar() {
 	    barWidth += 5;
 	    bar.style.width = barWidth.toString() + 'px';
 	    if(bar.style.width === '400px') {
-	    	clearInterval(timer);
-	    	alert('Process Complete');
+	    	clearInterval(timer)
+		    alert('Process Complete');
 	    }
     }, 50)
 }
