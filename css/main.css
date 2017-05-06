@@ -1,0 +1,28 @@
+* {
+	text-align: center;
+}
+
+div {
+	height: 30px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outerBar {
+	border: 1px solid gray;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#progressBar {
+	background: red;
+	width: 0;
+	margin-left: 0;
+	margin-right: 0;
+	/*border: 0.5px solid red;*/
+}
+
+form {
+	margin-top: 30px;
+}
